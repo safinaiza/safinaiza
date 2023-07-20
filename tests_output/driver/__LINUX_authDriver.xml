@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="driver.authDriver"
+    errors="0" failures="0" hostname="" id="" package="driver" skipped="0"
+    tests="3" time="40.59" timestamp="">
+  
+    <testcase name="code" classname="driver.authDriver" time="3.541" assertions="0">
+    </testcase>
+  
+    <testcase name="auth" classname="driver.authDriver" time="6.252" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="push" classname="driver.authDriver" time="10.50" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

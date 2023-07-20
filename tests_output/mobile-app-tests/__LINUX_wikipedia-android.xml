@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="mobile-app-tests.wikipedia-android"
+    errors="0" failures="1" hostname="" id="" package="mobile-app-tests" skipped="0"
+    tests="1" time="6653" timestamp="">
+  
+    <testcase name="Search for BrowserStack" classname="mobile-app-tests.wikipedia-android" time="3326" assertions="1">  <failure message="Testing if element&#39;s &lt;.pcs-edit-section-title&gt; inner text equals &#39;BrowserStack&#39; in 5000ms - expected &#34;equals &#39;BrowserStack&#39;&#34; but got: &#34;Element does not have an innerText attribute&#34; (5160ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\MobileTesting\nightwatch\examples\mobile-app-tests\wikipedia-android.js:19:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

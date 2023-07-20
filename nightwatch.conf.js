@@ -14,23 +14,23 @@
 module.exports = {
   // An array of folders (excluding subfolders) where your tests are located;
   // if this is not specified, the test source must be passed as the second argument to the test runner.
-  src_folders: ['test','nightwatch/examples'],
+  src_folders: ['test', 'nightwatch/examples'],
 
   // See https://nightwatchjs.org/guide/concepts/page-object-model.html
-  page_objects_path: ['helpers'],
+  page_objects_path: ['pageobjects'],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-commands.html
-  custom_commands_path: [],
+  custom_commands_path: ['custom_command'],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-assertions.html
   custom_assertions_path: [],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-plugins.html
   plugins: [],
-  
+
   // See https://nightwatchjs.org/guide/concepts/test-globals.html
   globals_path: '',
-  
+
   webdriver: {},
 
   test_workers: {
@@ -38,34 +38,6 @@ module.exports = {
   },
 
   test_settings: {
-    'android.chrome': {
-      desiredCapabilities: {
-        real_mobile: false,
-        avd: 'nightwatch-android-11',
-        browserName: 'chrome',
-        'goog:chromeOptions': {
-          w3c: true,
-          args: [
-            //'--no-sandbox',
-            //'--ignore-certificate-errors',
-            //'--allow-insecure-localhost',
-            //'--headless'
-          ],
-          androidPackage: 'com.android.chrome',
-          // add the device serial to run tests on, if multiple devices are online
-          // Run command: `$ANDROID_HOME/platform-tools/adb devices`
-          // androidDeviceSerial: ''
-        },
-      },
-   
-      webdriver: {
-        start_process: true,
-        server_path: 'chromedriver-mobile/chromedriver',
-        cli_args: [
-          // --verbose
-        ]
-      }
-    },
     default: {
       disable_error_log: false,
       launch_url: '',
@@ -79,14 +51,14 @@ module.exports = {
       desiredCapabilities: {
         browserName: ''
       },
-      
+
       webdriver: {
         start_process: true,
         server_path: ''
       },
-      
+
     },
-    
+
     app: {
       selenium: {
         start_process: true,
@@ -111,7 +83,7 @@ module.exports = {
         start_process: false
       }
     },
-    
+
     'app.android.emulator': {
       extends: 'app',
       'desiredCapabilities': {
@@ -169,7 +141,7 @@ module.exports = {
         }
       }
     },
-    
+
   },
-  
+
 };
