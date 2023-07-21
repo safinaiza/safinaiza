@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="logist.ActiveBids"
+    errors="0" failures="1" hostname="" id="" package="logist" skipped="0"
+    tests="3" time="29.94" timestamp="">
+  
+    <testcase name="Создание заявки" classname="logist.ActiveBids" time="1.351" assertions="0">
+    </testcase>
+  
+    <testcase name="Авторизация водителя" classname="logist.ActiveBids" time="13.53" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Проверка созданной заявки" classname="logist.ActiveBids" time="0.07700" assertions="1">  <failure message="&#34;(//android.view.View[@content-desc=&#34;planEnterDate&#34;:&#34; is not a function">TypeError: &#34;(//android.view.View[@content-desc=&#34;planEnterDate&#34;:&#34; is not a function
+    at Проверка созданной заявки (C:\MobileTesting\test\logist\ActiveBids.js:37:98)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

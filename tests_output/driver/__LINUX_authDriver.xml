@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
-            tests="3">
+            failures="1"
+            tests="2">
 
   <testsuite name="driver.authDriver"
-    errors="0" failures="0" hostname="" id="" package="driver" skipped="0"
-    tests="3" time="40.59" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="driver" skipped="1"
+    tests="2" time="17.84" timestamp="">
   
-    <testcase name="code" classname="driver.authDriver" time="3.541" assertions="0">
+    <testcase name="code" classname="driver.authDriver" time="3.420" assertions="0">
     </testcase>
   
-    <testcase name="auth" classname="driver.authDriver" time="6.252" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="push" classname="driver.authDriver" time="10.50" assertions="2">
-
-    
+    <testcase name="auth" classname="driver.authDriver" time="5.496" assertions="1">  <failure message="Timed out while waiting for element &lt;/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText[1]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5412ms)">    at Object.auth (C:\MobileTesting\test\driver\authDriver.js:10:14)</failure>
 
     
     </testcase>
@@ -31,6 +20,13 @@
 
     
 
+  
+    
+    <testcase
+      name="push" classname="driver.authDriver">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

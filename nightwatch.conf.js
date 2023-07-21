@@ -76,7 +76,7 @@ module.exports = {
       },
       webdriver: {
         timeout_options: {
-          timeout: 150000,
+          timeout: 300000,
           retry_attempts: 3
         },
         keep_alive: false,
