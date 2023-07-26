@@ -4,21 +4,27 @@
             tests="0">
 
   <testsuite name="logist.ActiveBids"
-    errors="1" failures="0" hostname="" id="" package="logist" skipped="1"
+    errors="1" failures="0" hostname="" id="" package="logist" skipped="3"
     tests="0" time="0.002000" timestamp="">
   
 
   
     <system-err>
-       An error occurred while creating a new Appium Server session: [WebDriverError] An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C:\\Users\\User\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &#39;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&#39;&#39; exited with code 1&#39;; Command output: adb.exe: device &#39;emulator-5554&#39; not found
+       An error occurred while creating a new Appium Server session: [WebDriverError] An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C:\\Users\\User\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &#39;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&#39;&#39; exited with code 20&#39;; Command output: cmd: Can&#39;t find service: settings
+cmd: Can&#39;t find service: settings
+cmd: Can&#39;t find service: settings
 
     </system-err>
   
 
     
-    <error message="An error occurred while creating a new Appium Server session: [WebDriverError] An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C:\\Users\\User\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &#39;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&#39;&#39; exited with code 1&#39;; Command output: adb.exe: device &#39;emulator-5554&#39; not found
+    <error message="An error occurred while creating a new Appium Server session: [WebDriverError] An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C:\\Users\\User\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &#39;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&#39;&#39; exited with code 20&#39;; Command output: cmd: Can&#39;t find service: settings
+cmd: Can&#39;t find service: settings
+cmd: Can&#39;t find service: settings
 "><![CDATA[
-      WebDriverError: An error occurred while creating a new Appium Server session: [WebDriverError] An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C:\\Users\\User\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &#39;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&#39;&#39; exited with code 1&#39;; Command output: adb.exe: device &#39;emulator-5554&#39; not found
+      WebDriverError: An error occurred while creating a new Appium Server session: [WebDriverError] An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &#39;Command &#39;C:\\Users\\User\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &#39;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&#39;&#39; exited with code 20&#39;; Command output: cmd: Can&#39;t find service: settings
+cmd: Can&#39;t find service: settings
+cmd: Can&#39;t find service: settings
 
     at Object.throwDecodedError (C:\MobileTesting\node_modules\selenium-webdriver\lib\error.js:524:15)
     at parseHttpResponse (C:\MobileTesting\node_modules\selenium-webdriver\lib\http.js:601:13)
@@ -29,7 +35,17 @@
   
     
     <testcase
+      name="Создание заявки" classname="logist.ActiveBids">
+      <skipped />
+    </testcase>
+    
+    <testcase
       name="Авторизация водителя" classname="logist.ActiveBids">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Проверка созданной заявки" classname="logist.ActiveBids">
       <skipped />
     </testcase>
     
